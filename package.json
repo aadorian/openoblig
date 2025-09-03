@@ -6,7 +6,9 @@
   "scripts": {
     "test": "jest",
     "coverage": "jest --coverage",
-    "start": "npx serve src"
+    "start": "npx serve src",
+    "build": "tsc",
+    "serve": "npx serve build -l 5000"
   },
   "keywords": [],
   "author": "",

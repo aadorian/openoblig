@@ -27,7 +27,7 @@ El trading automatizado en mercados de alta volatilidad y liquidez, como el merc
 
 ### Definición del Problema
 
-La operación manual en los mercados financieros [...]
+La operación manual en los mercados financieros, especialmente en el mercado de divisas, presenta múltiples desafíos: requiere atención constante, análisis en tiempo real y una rápida toma de decisiones bajo presión. La alta volatilidad y liquidez del par EUR/USD incrementan la complejidad, exponiendo al operador a riesgos de ejecución, errores humanos y dificultades para gestionar múltiples variables simultáneamente. Además, la falta de automatización limita la capacidad de aprovechar oportunidades de mercado que surgen en milisegundos, y dificulta la implementación sistemática de estrategias avanzadas de gestión de riesgos y optimización de resultados. Por ello, se plantea la necesidad de desarrollar una solución algorítmica que permita operar de forma autónoma, eficiente y segura, minimizando los riesgos y maximizando el potencial de rentabilidad en este entorno dinámico.
 
 ### Interrogantes que se pretenden contestar
 

@@ -14,6 +14,8 @@
 - Discusión y Conclusión
 - Glosario
 - Anexos
+ - [Mapeo de Requerimientos y Casos de Uso](DISENO.md#8-mapeo-de-requerimientos-y-casos-de-uso)
+# Para consultar la trazabilidad entre los requerimientos y los casos de uso, así como los criterios de aceptación, revisa la sección correspondiente en el documento de diseño: [DISENO.md - Mapeo de Requerimientos y Casos de Uso](DISENO.md#8-mapeo-de-requerimientos-y-casos-de-uso).
 
 ---
 

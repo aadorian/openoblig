@@ -18,6 +18,9 @@ jspm_packages/
 /dist
 /build
 
+# Coverage reports
+coverage/
+
 # IDE
 .vscode/
 .idea/

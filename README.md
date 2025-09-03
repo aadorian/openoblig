@@ -133,14 +133,14 @@ Para llevar a cabo el proyecto, se emplearán los siguientes instrumentos:
 
 ### Historias de Usuario
 
-| ID | Título | Descripción |
-| :--- | :--- | :--- |
-| **US#1** | **Automatización de la Estrategia** | Como **trader**, quiero automatizar la ejecución de mi estrategia de trading para poder operar 24/7 sin intervención manual y capitalizar los movimientos del mercado. |
-| **US#2** | **Gestión de Riesgos** | Como **trader**, quiero que el sistema gestione automáticamente el riesgo de cada operación, configurando un **stop-loss** y un **take-profit**, para proteger mi capital y asegurar ganancias. |
-| **US#3** | **Backtesting y Validación** | Como **trader**, quiero probar la rentabilidad de mi estrategia con datos históricos para validar su viabilidad antes de operar con dinero real. |
-| **US#4** | **Monitoreo de Rendimiento** | Como **trader**, quiero visualizar reportes detallados sobre el rendimiento de mi Expert Advisor para poder analizar su efectividad y ajustar la estrategia. |
-| **US#5** | **Conectividad y Latencia** | Como **trader**, quiero que el sistema se conecte a un bróker de tipo ECN/STP para asegurar una **latencia** mínima y reducir el **slippage**. |
-| **US#6** | **Configuración Flexible** | Como **trader**, quiero poder ajustar parámetros de la estrategia sin tener que modificar el código para optimizar el rendimiento del algoritmo. |
+| ID | Título | Descripción | Escenario | Criterios de Aceptación |
+| :--- | :--- | :--- | :--- | :--- |
+| **US#1** | **Automatización de la Estrategia** | Como **trader**, quiero automatizar la ejecución de mi estrategia de trading para operar 24/7 y capitalizar los movimientos del mercado sin intervención manual. | El trader configura la estrategia y el sistema ejecuta órdenes automáticamente según las reglas definidas. | El sistema ejecuta órdenes sin intervención, permite activar/desactivar la automatización y muestra logs de operaciones. |
+| **US#2** | **Gestión de Riesgos** | Como **trader**, quiero que el sistema gestione automáticamente el riesgo de cada operación, configurando **stop-loss** y **take-profit** para proteger mi capital y asegurar ganancias. | El trader define los parámetros de riesgo y el sistema los aplica en cada operación. | El sistema coloca stop-loss y take-profit en todas las operaciones, permite modificar los parámetros y reporta las acciones tomadas. |
+| **US#3** | **Backtesting y Validación** | Como **trader**, quiero probar la rentabilidad de mi estrategia con datos históricos para validar su viabilidad antes de operar con dinero real. | El trader selecciona una estrategia y ejecuta el backtesting con datos históricos. | El sistema permite cargar datos históricos, ejecutar el backtesting y muestra métricas de rendimiento (rentabilidad, drawdown, ratio de aciertos). |
+| **US#4** | **Monitoreo de Rendimiento** | Como **trader**, quiero visualizar reportes detallados sobre el rendimiento de mi Expert Advisor para analizar su efectividad y ajustar la estrategia. | El sistema genera reportes automáticos y el trader accede a ellos desde la interfaz. | El sistema muestra reportes con métricas clave, gráficos de evolución y permite exportar los resultados. |
+| **US#5** | **Conectividad y Latencia** | Como **trader**, quiero que el sistema se conecte a un bróker ECN/STP para asegurar latencia mínima y reducir el slippage. | El sistema se conecta al bróker y ejecuta órdenes en tiempo real. | El sistema establece conexión segura, reporta la latencia y alerta si supera el umbral definido. |
+| **US#6** | **Configuración Flexible** | Como **trader**, quiero poder ajustar parámetros de la estrategia sin modificar el código para optimizar el rendimiento del algoritmo. | El trader accede a una interfaz de configuración y modifica parámetros en tiempo real. | El sistema permite modificar parámetros desde la interfaz, guarda los cambios y los aplica sin reiniciar el sistema. |
 
 ---
 

@@ -54,6 +54,20 @@ document.addEventListener("DOMContentLoaded", () => {
       updateUI();
       updatePersonaTable();
       persist();
+      // Visualizar datos de la posición en la tabla
+      const positionTable = document.getElementById("position-table") as HTMLTableElement;
+      const positionAmount = document.getElementById("position-amount") as HTMLTableCellElement;
+      const positionStatus = document.getElementById("position-status") as HTMLTableCellElement;
+      if (positionTable && positionAmount && positionStatus) {
+        positionTable.style.display = "table";
+        positionAmount.textContent = amount ? amount.toString() + " EUR" : "-";
+        positionStatus.textContent = trader.getOpenPositions() > 0 ? "Abierta" : "-";
+      }
+      // Animación visual en el botón
+      openBtn.style.boxShadow = "0 0 0 4px #00b89455";
+      setTimeout(() => {
+        openBtn.style.boxShadow = "";
+      }, 300);
     };
   }
 

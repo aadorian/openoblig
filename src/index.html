@@ -57,9 +57,13 @@
     <h1>👋 ¡Hola Mundo!</h1>
     <p>Bienvenido a tu primera web estática profesional para OpenOblig.</p>
       <div id="balance-info" style="margin-top:24px;"></div>
+      <table id="position-table" style="margin-top:24px;display:none;width:100%;background:#dfe6e9;border-radius:8px;box-shadow:0 1px 4px #0001;">
+        <tr><td class="label">Monto invertido:</td><td id="position-amount">-</td></tr>
+        <tr><td class="label">Estado:</td><td id="position-status">-</td></tr>
+      </table>
       <div style="margin-top:24px;">
         <input id="amount" type="number" placeholder="Monto a invertir" style="width:140px;">
-        <button id="open-btn">Abrir posición</button>
+    <button id="open-btn" style="transition:box-shadow 0.2s;">Abrir posición</button>
       </div>
       <div style="margin-top:12px;">
         <input id="profit" type="number" placeholder="Ganancia/Pérdida" style="width:140px;">

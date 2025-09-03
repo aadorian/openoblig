@@ -1,6 +1,6 @@
 import { BasicTrading } from "./BasicTrading";
-
 document.addEventListener("DOMContentLoaded", () => {
+  // Inicializar solo BasicTrading
   // Cargar estado desde LocalStorage o inicializar
   const saved = localStorage.getItem("tradingState");
   let initialBalance = 1000;
@@ -15,6 +15,17 @@ document.addEventListener("DOMContentLoaded", () => {
   const trader = new BasicTrading(initialBalance);
   // Ajustar posiciones abiertas si se guardó
   (trader as any).openPositions = openPositions;
+  // Función para actualizar la tabla en tiempo real
+  function updatePersonaTable() {
+    const personaTable = document.getElementById("persona-table");
+    if (personaTable) {
+      personaTable.innerHTML = `
+        <tr><td class="label">Balance actual:</td><td>${trader.getBalance()} EUR</td></tr>
+        <tr><td class="label">Posiciones abiertas:</td><td>${trader.getOpenPositions()}</td></tr>
+      `;
+    }
+  }
+  updatePersonaTable();
 
   const balanceInfo = document.getElementById("balance-info");
   const openBtn = document.getElementById("open-btn") as HTMLButtonElement;
@@ -41,6 +52,7 @@ document.addEventListener("DOMContentLoaded", () => {
       const msg = trader.openPosition(amount);
       logDiv.innerHTML = msg;
       updateUI();
+      updatePersonaTable();
       persist();
     };
   }
@@ -51,6 +63,7 @@ document.addEventListener("DOMContentLoaded", () => {
       const msg = trader.closePosition(profit);
       logDiv.innerHTML = msg;
       updateUI();
+      updatePersonaTable();
       persist();
     };
   }

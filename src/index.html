@@ -56,14 +56,17 @@
   <div class="container">
     <h1>👋 ¡Hola Mundo!</h1>
     <p>Bienvenido a tu primera web estática profesional para OpenOblig.</p>
-    <div class="persona">
-      <h2 style="color:#0984e3;margin-bottom:8px;">Datos de la Persona</h2>
-      <table>
-        <tr><td class="label">Nombre:</td><td>David</td></tr>
-        <tr><td class="label">Edad:</td><td>35</td></tr>
-        <tr><td class="label">Profesión:</td><td>Ingeniero de Software</td></tr>
-      </table>
-    </div>
+      <div id="balance-info" style="margin-top:24px;"></div>
+      <div style="margin-top:24px;">
+        <input id="amount" type="number" placeholder="Monto a invertir" style="width:140px;">
+        <button id="open-btn">Abrir posición</button>
+      </div>
+      <div style="margin-top:12px;">
+        <input id="profit" type="number" placeholder="Ganancia/Pérdida" style="width:140px;">
+        <button id="close-btn">Cerrar posición</button>
+      </div>
+      <div id="log" style="margin-top:18px;color:#636e72;"></div>
   </div>
+  <script type="module" src="../build/app.js"></script>
 </body>
 </html>

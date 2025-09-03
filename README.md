@@ -75,25 +75,25 @@ El proyecto ha logrado definir una solución sólida y coherente [...]
 
 ## 10. Glosario
 
-| Término          | Definición |
-|------------------|------------|
-| Trading Algorítmico | Software que ejecuta órdenes de compra y venta [...] |
-| Expert Advisor (EA) | Algoritmo que automatiza estrategias en Forex [...] |
-| Backtesting       | Probar una estrategia con datos históricos [...] |
-| Scalping          | Estrategia de alta frecuencia con operaciones muy cortas [...] |
-| Day Trading       | Estrategia en la que todas las operaciones se cierran en el día [...] |
-| Swing Trading     | Estrategia con operaciones que duran días o semanas [...] |
-| Spread            | Diferencia entre precio ask y bid [...] |
-| Slippage          | Diferencia entre precio esperado y ejecutado [...] |
-| Market Maker      | Tipo de bróker que toma la posición contraria al trader [...] |
-| ECN               | Red que conecta traders con proveedores de liquidez [...] |
-| STP               | Bróker que enruta órdenes directamente [...] |
-| Overfitting       | Sobreajuste del algoritmo a datos históricos [...] |
-| VPS               | Servidor virtual privado para operar 24/7 [...] |
-| MQL4 / MQL5       | Lenguajes de programación para Expert Advisors [...] |
-| Stop-Loss         | Orden que limita pérdidas [...] |
-| Take-Profit       | Orden que asegura ganancias [...] |
-| Bid y Ask         | Precios de compra y venta de divisa base [...] |
+| Término                | Definición |
+|------------------------|----------------------------------------------------------------------------------------------------------------------------------|
+| Trading Algorítmico    | Sistema automatizado que ejecuta órdenes de compra y venta en los mercados financieros según reglas predefinidas y algoritmos. |
+| Expert Advisor (EA)    | Programa desarrollado para MetaTrader que permite automatizar estrategias de trading en Forex, ejecutando operaciones sin intervención humana. |
+| Backtesting            | Proceso de evaluar una estrategia de trading utilizando datos históricos para estimar su rendimiento y robustez antes de operar en tiempo real. |
+| Scalping               | Estrategia de trading que busca obtener pequeñas ganancias mediante operaciones de muy corta duración y alta frecuencia. |
+| Day Trading            | Estrategia en la que todas las posiciones se abren y cierran dentro de la misma jornada de mercado. |
+| Swing Trading          | Estrategia que mantiene posiciones abiertas durante varios días o semanas, aprovechando movimientos de mercado de mediano plazo. |
+| Spread                 | Diferencia entre el precio de compra (ask) y el precio de venta (bid) de un activo financiero. |
+| Slippage               | Diferencia entre el precio esperado de una orden y el precio real al que se ejecuta, generalmente por alta volatilidad o baja liquidez. |
+| Market Maker           | Tipo de bróker que provee liquidez al mercado, tomando la posición contraria a la del trader y fijando los precios de compra y venta. |
+| ECN                    | Electronic Communication Network; red electrónica que conecta traders directamente con proveedores de liquidez, permitiendo ejecución rápida y spreads competitivos. |
+| STP                    | Straight Through Processing; modelo de bróker que envía las órdenes de los clientes directamente a los proveedores de liquidez sin intervención manual. |
+| Overfitting            | Fenómeno en el que un algoritmo se ajusta demasiado a los datos históricos, perdiendo capacidad de generalización en datos nuevos. |
+| VPS                    | Virtual Private Server; servidor virtual que permite ejecutar software de trading de forma continua y estable, minimizando interrupciones y latencia. |
+| MQL4 / MQL5            | Lenguajes de programación específicos para el desarrollo de Expert Advisors y scripts en la plataforma MetaTrader. |
+| Stop-Loss              | Orden automática que cierra una posición cuando el precio alcanza un nivel predeterminado para limitar las pérdidas. |
+| Take-Profit            | Orden automática que cierra una posición cuando el precio alcanza un nivel predeterminado para asegurar ganancias. |
+| Bid y Ask              | Bid: precio al que el mercado está dispuesto a comprar; Ask: precio al que el mercado está dispuesto a vender un activo financiero. |
 
 ---
 
